@@ -62,7 +62,7 @@ window.createPhone = () => {
     creatPhoneServ(data)
       .then((result) => {
         fetchPhoneList();
-        $("#exampleModal").modal("hide");
+        $("#phoneModal").modal("hide");
         onSucess("Creat success!");
       })
       .catch((err) => {});
@@ -89,7 +89,7 @@ window.updatePhone = () => {
   updatePhoneServ(id, phone)
     .then((result) => {
       // đóng modal sau khi update thành công
-      $("#myModal").modal("hide");
+      $("#phoneModal").modal("hide");
       onSucess("Update success!");
       // thành công
       fetchPhoneList();
