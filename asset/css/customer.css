@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    display: flex;
+    padding-left: 50px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+/* end header */
+
+
+.shopping {
+    text-align: end;
+}
+
+.shopping i {
+    font-size: 20px;
+}
+
+#imagePhone img {
+    width: 300px;
+    height: auto;
+}
+
+#bodyPhone {
+    margin: 100px 0 50px;
+}
+
+#introPhone {
+    line-height: 20px;
+}
+
+#introPhone .price {
+    font-size: 30px;
+    color: red;
+}
+
+/*# sourceMappingURL=index.css.map */

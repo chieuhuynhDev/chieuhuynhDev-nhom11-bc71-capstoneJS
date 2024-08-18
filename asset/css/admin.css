@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    display: flex;
+    padding-left: 50px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+/* end header */
+
+.main-content {
+    padding: 20px;
+}
+
+.management-header {
+    background-color: #d18abf;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-phone-btn {
+    background-color: #3a4860;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+/* Modal */
+
+.modal-header {
+    justify-content: center;
+}
+
+
+
+.modal h2 {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+}
+
+.icon {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px 0 0 4px;
+}
+
+input {
+    flex-grow: 1;
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+}
+
+
+/* THông báo*/
+.sp-thongbao {
+    color: red;
+    margin-left: 2px;
+    /* display: none; */
+}
+
+.find-phone {
+    border: #ddd solid 1px;
+    border-radius: 5px;
+}
+
+.find-sort {
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
