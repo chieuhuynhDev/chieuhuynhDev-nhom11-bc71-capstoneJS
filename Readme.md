@@ -4,4 +4,4 @@ Link phan chia cong viec: [Link](https://docs.google.com/spreadsheets/d/11R-BEPf
 
 Link online vercel: [Link](https://chieuhuynh-dev-nhom11-bc71-capstone-js.vercel.app/)
 
-Link youtube: [link]()
+Link youtube: [link](https://www.youtube.com/watch?v=b5tTT6yhlVQ)
